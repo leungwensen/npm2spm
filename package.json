@@ -30,7 +30,8 @@
     },
     "dependencies": {
         "minimist": "*",
-        "zero-encoding-json": "*"
+        "zero-encoding-json": "*",
+        "zero-fmt-sprintf": "*"
     },
     "devDependencies": {
     },
