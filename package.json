@@ -1,0 +1,40 @@
+{
+    "name": "npm2spm",
+    "productName": "npm2spm",
+    "version": "0.0.20150929",
+    "description": "transfer npm modules into spm modules",
+    "license": "MIT",
+    "main": "./npm2spm.js",
+    "homepage": "https://github.com/leungwensen/npm2spm",
+    "keywords": [
+        "npm",
+        "spm",
+        "npm2spm"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/leungwensen/npm2spm.git"
+    },
+    "author": {
+        "name": "绝云",
+        "email": "wensen.lws@alibaba-inc.com",
+        "url": "leungwensen.com"
+    },
+    "bin": {
+        "npm2spm": "./npm2spm.js"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+    },
+    "dependencies": {
+        "minimist": "*",
+        "zero-encoding-json": "*"
+    },
+    "devDependencies": {
+    },
+    "files": [
+        "npm2spm.js"
+    ]
+}
