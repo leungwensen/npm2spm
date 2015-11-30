@@ -28,6 +28,6 @@ package-helper 2spm [--publish] [$path/to/package]
 resolving package's dependencies
 
 ```shell
-package-helper 2spm [--2latest] [$path/to/package]
+package-helper dependencies [--2latest] [$path/to/package]
 ```
 
