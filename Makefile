@@ -18,5 +18,5 @@ install:
 test:
 publish:
 	npm publish
-	cnpm sync zfinder
+	cnpm sync package-helper
 
