@@ -13,6 +13,7 @@ commander
   .command('2spm [root]')
   .description('convert package to spm-format')
   .option('-e, --encoding [encoding]', 'encoding of package.json file')
+  .option('-f, --force', 'force update')
   .option('-p, --publish', 'publish to spmjs.io')
   .action(function(root, options) {
     require('../lib/2spm')(root, options);
@@ -22,6 +23,7 @@ commander
 commander
   .command('dependencies [root]')
   .description('manage dependencies in package.json')
+  .option('-e, --encoding [encoding]', 'encoding of package.json file')
   .option('-l, --2latest', 'dependencies to latest version')
   .action(function(root, options) {
     require('../lib/dependencies')(root, options);
